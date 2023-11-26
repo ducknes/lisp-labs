@@ -3,4 +3,6 @@
     0
     (+ (* a i) (sum-count a (+ i 1) (- n 1)))))
 
-(format t "Сумма = ~d" (sum-count 1 1 5))
+(setq a (read))
+(setq n (read))
+(format t "Сумма = ~d" (sum-count a 1 n))
